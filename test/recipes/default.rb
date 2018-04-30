@@ -4,8 +4,8 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-file '/etc/hello.txt' do
-  content 'Welcome to Chef'
+file '/etc/hostname' do
+  content 'test1'
 end
 
 execute "hostname" do
